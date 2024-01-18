@@ -1,0 +1,12 @@
+name: "ds-website"
+title: "Arya Data Science Projects"
+description: |
+  Arya Data Science Projects
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
